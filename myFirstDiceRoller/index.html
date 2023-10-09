@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>DiceRoller</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="page">
+        <div class="header"> rtr
+            .
+            rtr
+        </div>
+        <div class="content">
+            <form class="diceselect">
+                <legend>Select a dice:</legend>
+              
+                <div>
+                  <input type="radio" id="1d4" name="drone" value="4" checked />
+                  <label for="1d4">1d4</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="1d6" name="drone" value="6" />
+                  <label for="1d6">1d6</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="1d8" name="drone" value="8" />
+                  <label for="1d8">1d8</label>
+                </div>
+                <div>
+                    <input type="radio" id="1d10" name="drone" value="10" />
+                    <label for="1d10">1d10</label>
+                </div>
+                <div>
+                    <input type="radio" id="1d12" name="drone" value="12" />
+                    <label for="1d12">1d12</label>
+                </div>
+                <div>
+                    <input type="radio" id="1d20" name="drone" value="20" />
+                    <label for="1d20">1d20</label>
+                </div>
+                <div>
+                    <input type="radio" id="1d100" name="drone" value="100" />
+                    <label for="1d100">1d100</label>
+                </div>
+            </form>
+            
+            <button class="dice" id="dice" onclick="change()"><P id="dicetext">roll</P></button>
+                   
+
+        </div>
+    </div>
+    <div class="footer">
+        <p> подвал сайта</p>
+    </div>
+</div>
+
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
