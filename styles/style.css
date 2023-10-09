@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 12, 0);
+    -webkit-text-fill-color: #FFF;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    height: 100%;
+    max-width: 1100px; 
+    margin: 0 auto;
+}
+.page {
+    min-height: 100%;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+.header {
+    height: 350px;
+    min-width: 100%;
+    background: linear-gradient(to right,  rgb(24, 12, 0) 0%,  rgb(24, 12, 0) calc(50% - 360px), 
+    transparent calc(50% - 30px), transparent calc(50% + 30px), rgb(24, 12, 0),  rgb(24, 12, 0) 100%), 
+    linear-gradient(to bottom,  rgb(24, 12, 0) 0%,  rgb(24, 12, 0) calc(50% - 360px), 
+    transparent calc(50% - 30px), transparent calc(50% + 30px), rgb(24, 12, 0),  rgb(24, 12, 0) 100%),
+    url('../images/dicebackground.jpg') no-repeat center ;
+
+}
+.footer {
+    height: 90px;
+    margin-top: -90px;
+    box-sizing: border-box;
+}
+.dice {
+    display:inline-block;
+    position: left;
+    padding: 100;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 250px;
+    width: 250px;
+    background: url('../images/diceroller.png')no-repeat center;
+    background-size: contain;
+    color: #f2c14d; font-family: ‘Rouge Script’, cursive; font-size: 25px; font-weight: normal; line-height: 48px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #000000;
+}
+#dicetext {background: none;}
+.diceselect {
+    width: 20%;
+    display:inline-block;
+}
