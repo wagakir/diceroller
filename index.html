@@ -9,47 +9,48 @@
 
 <div class="wrapper">
     <div class="page">
-        <div class="header"> rtr
-            .
-            rtr
+        <div class="header"> 
+            <p>Dice </p>
+            <p>Roller </p>
+            <p>& randomizer character </p>
         </div>
         <div class="content">
             <form class="diceselect">
-                <legend>Select a dice:</legend>
+                <legend class="diceselecttext">Select a dice:</legend>
               
                 <div>
                   <input type="radio" id="1d4" name="drone" value="4" checked />
-                  <label for="1d4">1d4</label>
+                  <label class="diceselecttext" for="1d4">1d4</label>
                 </div>
               
                 <div>
                   <input type="radio" id="1d6" name="drone" value="6" />
-                  <label for="1d6">1d6</label>
+                  <label class="diceselecttext" for="1d6">1d6</label>
                 </div>
               
                 <div>
                   <input type="radio" id="1d8" name="drone" value="8" />
-                  <label for="1d8">1d8</label>
+                  <label class="diceselecttext" for="1d8">1d8</label>
                 </div>
                 <div>
                     <input type="radio" id="1d10" name="drone" value="10" />
-                    <label for="1d10">1d10</label>
+                    <label class="diceselecttext" for="1d10">1d10</label>
                 </div>
                 <div>
                     <input type="radio" id="1d12" name="drone" value="12" />
-                    <label for="1d12">1d12</label>
+                    <label class="diceselecttext" for="1d12">1d12</label>
                 </div>
                 <div>
                     <input type="radio" id="1d20" name="drone" value="20" />
-                    <label for="1d20">1d20</label>
+                    <label class="diceselecttext" for="1d20">1d20</label>
                 </div>
                 <div>
                     <input type="radio" id="1d100" name="drone" value="100" />
-                    <label for="1d100">1d100</label>
+                    <label class="diceselecttext" for="1d100">1d100</label>
                 </div>
             </form>
             
-            <button class="dice" id="dice" onclick="change()"><P id="dicetext">roll</P></button>
+            <button class="dice" id="dice" onclick="change()"><P id="dicetext" class="dicetext">roll</P></button>
                    
 
         </div>

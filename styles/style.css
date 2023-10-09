@@ -42,10 +42,11 @@ html, body {
     width: 250px;
     background: url('../images/diceroller.png')no-repeat center;
     background-size: contain;
-    color: #f2c14d; font-family: ‘Rouge Script’, cursive; font-size: 25px; font-weight: normal; line-height: 48px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #000000;
+    color: #f2c14d; font-family: ‘Rouge Script’, cursive; font-size: 35px; font-weight: normal; line-height: 0px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #000000;
 }
 #dicetext {background: none;}
 .diceselect {
     width: 20%;
     display:inline-block;
 }
+.diceselecttext{color: #f2c14d; font-family: ‘Rouge Script’, cursive; font-size: 15px; font-weight: normal; line-height: 18px; margin: 0 0 10px; text-align: center; text-shadow: 1px 1px 2px #000000;}
